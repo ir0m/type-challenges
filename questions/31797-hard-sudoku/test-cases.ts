@@ -1,4 +1,4 @@
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
 
 type test_sudoku_1_actual = SudokuSolved<[
   [[1, 2, 3], [5, 6, 7], [4, 8, 9]],

@@ -1,4 +1,4 @@
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
 
 type Result1 = | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 type Result2 = | 0 | 1 | 2

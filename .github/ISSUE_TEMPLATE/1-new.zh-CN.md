@@ -44,8 +44,8 @@ type YourType = any
 请为你的题目提供一些判题测试，你可以使用 `@type-challenges/utils` 中提供的一些工具进行判断。
 
 ```ts
-import type { Equal, Expect } from '@type-challenges/utils'
-import { ExpectFalse, NotEqual } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
+import { ExpectFalse, NotEqual } from '../../utils'
 
 type cases = [
   Expect<Equal<true, true>>

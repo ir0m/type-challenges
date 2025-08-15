@@ -1,4 +1,4 @@
-import type { Equal, Expect, IsTrue } from '@type-challenges/utils'
+import type { Equal, Expect, IsTrue } from '../../utils'
 
 /**
  * Tests of assignable of tagged variables.

@@ -40,8 +40,8 @@ type YourType = any
 Provide some test cases for your challenge, you can use some utils from `@type-challenges/utils` for asserting.  
 
 ```ts
-import type { Equal, Expect } from '@type-challenges/utils'
-import { ExpectFalse, NotEqual } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
+import { ExpectFalse, NotEqual } from '../../utils'
 
 type cases = [
   Expect<Equal<true, true>>

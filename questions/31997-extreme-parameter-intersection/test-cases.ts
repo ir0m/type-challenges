@@ -1,4 +1,4 @@
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
 
 type result1 = IntersectParameters<[], []>
 type TwoEmpty = Expect<Equal<[], result1>>

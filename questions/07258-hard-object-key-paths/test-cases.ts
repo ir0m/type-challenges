@@ -1,4 +1,4 @@
-import type { Equal, Expect, ExpectExtends } from '@type-challenges/utils'
+import type { Equal, Expect, ExpectExtends } from '../../utils'
 
 const ref = {
   count: 1,

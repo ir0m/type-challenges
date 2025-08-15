@@ -9,7 +9,7 @@ TypeScript は構造的型システムを持っていますが、場合によっ
 例えば、
 
 ```ts
-import { Equal } from '@type-challenges/utils';
+import { Equal } from '../../utils';
 
 type Foo = { foo: 2; bar: { 0: 1 }; baz: { 0: 1 } };
 

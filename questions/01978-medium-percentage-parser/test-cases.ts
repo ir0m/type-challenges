@@ -1,4 +1,4 @@
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from '../../utils'
 
 type Case0 = ['', '', '']
 type Case1 = ['+', '', '']

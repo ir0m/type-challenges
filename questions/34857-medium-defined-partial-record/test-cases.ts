@@ -1,4 +1,4 @@
-import type { Equal, Expect, ExpectTrue, NotAny, NotEqual } from '@type-challenges/utils'
+import type { Equal, Expect, ExpectTrue, NotAny, NotEqual } from '../../utils'
 
 type A1 = Record<'a' | 'b', string>
 type E1 = { a: string } |

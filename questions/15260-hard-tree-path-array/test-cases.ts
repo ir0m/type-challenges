@@ -1,4 +1,4 @@
-import type { ExpectExtends, ExpectFalse, ExpectTrue } from '@type-challenges/utils'
+import type { ExpectExtends, ExpectFalse, ExpectTrue } from '../../utils'
 
 declare const example: {
   foo: {

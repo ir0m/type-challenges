@@ -1,4 +1,4 @@
-import type { Equal, Expect, ExpectFalse } from '@type-challenges/utils'
+import type { Equal, Expect, ExpectFalse } from '../../utils'
 
 type cases = [
   Expect<Equal<PermutationsOfTuple<[]>, []>>,
